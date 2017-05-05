@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anant.clicker.MainActivity">
+
+    <Button
+        android:id="@+id/buttonClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Click   "
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="159dp"
+        android:layout_above="@+id/buttonReset"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                    Reset                      "
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="281dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="124dp" />
+
+    <TextView
+        android:id="@+id/textViewCount"
+        android:layout_width="45dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:text="0"
+        android:textSize="42dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="41dp" />
+</RelativeLayout>
